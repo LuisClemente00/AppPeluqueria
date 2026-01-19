@@ -1,0 +1,21 @@
+<h1 class="nombre-pagina">Olvidé Password</h1>
+<p class="descripcion-pagina">Restablece el password escribiendo tu email a continuación</p>
+
+<form action="/olvide" class="formulario" method="POST">
+
+    <div class="campo">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Tu Email">
+
+    </div>
+
+    <input type="submit" class="boton" value="Enviar Instrucciones">
+    
+</form>
+
+<div class="acciones">
+    <a href="/">¿Ya tienes cuenta? Inicia Sesión</a>
+    <a href="/crear-cuenta">¿Aún no tienes cuenta? Regístrate</a>
+
+</div>

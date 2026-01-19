@@ -1,0 +1,19 @@
+{
+    "name": "luisclemente/app-salon_php_mvc_js_sass",
+    "description": "Proyecto APP peluqueria",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./Controllers",
+            "Model\\": "./Models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LuisClemente00",
+            "email": "163512102+LuisClemente00@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
