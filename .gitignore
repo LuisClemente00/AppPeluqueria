@@ -1,0 +1,26 @@
+# Dependencias de PHP (Composer)
+/vendor/
+
+# Dependencias de Node.js
+/node_modules/
+
+# Archivos de entorno y configuración local
+.env
+.env.local
+.DS_Store
+Thumbs.db
+
+# Archivos de Gulp y Sass Cache
+.sass-cache/
+.npm/
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+
+# Otros
+composer.phar
+npm-debug.log*
