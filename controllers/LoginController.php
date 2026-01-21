@@ -80,4 +80,10 @@ class LoginController {
             'alertas' => $alertas
         ]);
     }
+
+    public static function mensaje(Router $router) {
+
+    $router->render('auth/mensaje');
+
+    }
 }
