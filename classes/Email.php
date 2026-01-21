@@ -74,4 +74,6 @@ class Email {
         // Enviar el email
         $mail->send();
     }
+
+
 }
