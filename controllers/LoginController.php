@@ -57,8 +57,16 @@ class LoginController {
                     // Enviar el email
 
                     $email = new Email($usuario->nombre, $usuario->email, $usuario->token);
-
                     $email->enviarConfirmacion();
+
+                    // Crear el usuario
+                    $resultado = $usuario->guardar();
+
+                    if($resultado) {
+                        echo "Guardado correctamente";
+                    }
+
+                
                 }
 
                 
