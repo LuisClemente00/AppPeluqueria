@@ -26,5 +26,9 @@ $router->post('/crear-cuenta', [Controllers\LoginController::class, 'crear']);
 $router->get('/confirmar-cuenta', [LoginController::class, 'confirmar']);
 $router->get('/mensaje', [LoginController::class, 'mensaje']);
 
+// Area Privada
+$router->get('/cita', [Controllers\CitaController::class, 'index']);
+$router->get('/admin', [Controllers\LoginController::class, 'admin']);
+
 // Comprueba y valida las rutas, que existan y les asigna las funciones del Controlador
 $router->comprobarRutas();
