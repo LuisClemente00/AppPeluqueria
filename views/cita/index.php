@@ -48,7 +48,7 @@
     </div>
     <div id="paso-3" class="seccion">
         <h2>Resumen</h2>
-        <p>Verifica que la información sea correcta</p>
+        <p class="text-center">Verifica que la información sea correcta</p>
     </div>
 
     <div class="paginacion">
@@ -59,3 +59,14 @@
 
 
 </div>
+
+<?php 
+
+    $script = "
+        
+        <script src='/build/js/app.js'></script>
+
+    ";
+        
+
+?>
